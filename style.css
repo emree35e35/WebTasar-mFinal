@@ -1,0 +1,193 @@
+*{
+	margin:0;
+	padding:0;
+}
+.head{
+	background: #2F3C48;
+	height: 44px;
+}
+.head .anabaslik{
+	position: absolute;
+	line-height: 1.9;
+	margin-left: 10px;
+
+	width: 100%;
+}
+.head .baslik{
+	color: white;
+	font-size:20px;
+	margin-left: 15px;
+}
+.head .anabaslik .sagtaraf{
+
+	float: right;
+	margin-top: 5px;
+	padding-right: 50px;
+}
+.head .anabaslik .sagtaraf .renk .icice i{
+	position: absolute;
+	margin-left: 18px;
+	font-size: 15px;
+	margin-top: 3px;
+	color: green;
+}
+.head .anabaslik .sagtaraf .renk .icice .sayi{
+
+	position: absolute;
+	margin-left: 20px;
+	font-size: 12px;
+	margin-bottom: 4px;
+
+	color: white !important;
+}
+.head .anabaslik .sagtaraf span{
+	padding-right: 10px;
+}
+
+.head .baslik strong{
+	letter-spacing:-4px;
+}
+.renk{
+	color:#d1e8ff ;
+}
+.ortakısım{
+	display: flex;
+	height: 693px;
+}
+.ortakısım .menu{
+	width: 16%;
+
+	background: #3f5161;
+}
+.ortakısım .menu .ustliste{
+
+	display: block;
+	padding: 10px 8px;
+	color:#ffffff;
+	border: 1px solid 	rgb(70, 90, 108)
+}
+.sagasabit{
+	float: right;
+}
+.ortakısım .menu .icliste{
+
+	display: block;
+	padding: 10px 25px;
+	color:#ffffff;
+	background: #394958;
+
+
+}
+.ortakısım .menu .icliste:hover{
+
+	background:#496b8a
+}
+.ortakısım .menu .altliste{
+
+	display: block;
+	padding: 10px 8px;
+	position: relative;
+	top:170px;
+	color:#ffffff;
+	border-top: 2px solid rgba(34, 110, 148);
+}
+
+.ortakısım .menu .altliste2{
+
+	display: block;
+	padding: 10px 12px;
+	position: relative;
+	top:170px;
+	color:#ffffff;
+	border: 1px solid rgba(0,0,0,.125);
+}
+.renkicerik{
+	color: #2384bb; 
+}
+.content{
+	width: 83%;
+}
+.content .icerikhead{
+	margin-top: 12px;
+	margin-left: 15px;
+}
+.content .icerikhead .slash{
+	margin-left:5px;
+	margin-right: 5px;
+	color: #b0b2b3;
+}
+.content .icerikheadorta .sagmenuisaret{
+	margin-top: 20px;
+}
+.content .icerikheadorta .baslik{
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 17px;
+}
+.content #all18{
+	font-size: 14px;
+	margin-top: 15px;
+	margin-left: 16px;
+}
+.content .searchbar{
+	float: right;
+	margin-top: 30px;
+}
+.content .searchbar input{
+	width: 250px;
+	height: 22px;
+}
+.content .contentasagı{
+	background: #fafafa;
+	margin-top: 58px;
+	height: 75.5%;
+	
+}
+.content .contentasagı ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+.content .contentasagı li{
+	float: left;
+}
+.content .contentasagı .kutu{
+	background: #ffffff;
+	width: 330px;
+	height: 165px;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: block;
+}
+.content .contentasagı .kutu .icon1{
+	margin-top: 10px;
+	margin-left: 15px;
+	font-size: 20px;
+	color: 	#3a89b3;
+}
+.content .contentasagı .kutu .kutubaslik{
+	color: 	#3a89b3;
+	font-size: 18px;
+}
+.content .contentasagı .kutu .kutualtbaslik{
+	margin-top: 20px;
+	margin-left: 14px;
+}
+.content .contentasagı .kutu .icon2{
+	margin-top: 10px;
+	margin-left: 12px;
+	font-size: 40px;
+
+}
+
+.content .contentasagı .kutu .kutuicerik{
+	display: inline-flex;
+	
+}
+.content .contentasagı .kutu .kutuicerik .kutuyazi{
+	margin-left: 7px;
+	margin-top: 5px;
+	font-size: 15px;
+	margin-right: 4px;
+}
+
+
